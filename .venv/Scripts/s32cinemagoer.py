@@ -1,7 +1,7 @@
-#!e:\marci\obudai_egyetem\allasinteju_kerdesek\datapao\imdb_app\.venv\scripts\python.exe
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-s32imdbpy.py script.
+s32cinemagoer.py script.
 
 This script imports the s3 dataset distributed by IMDb into a SQL database.
 

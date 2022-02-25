@@ -1,4 +1,4 @@
-#!e:\marci\obudai_egyetem\allasinteju_kerdesek\datapao\imdb_app\.venv\scripts\python.exe
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 get_person.py
@@ -12,11 +12,11 @@ Notice that person_id, using 'sql', are not the same IDs used on the web.
 
 import sys
 
-# Import the IMDbPY package.
+# Import the Cinemagoer package.
 try:
     import imdb
 except ImportError:
-    print('You need to install the IMDbPY package!')
+    print('You need to install the Cinemagoer package!')
     sys.exit(1)
 
 

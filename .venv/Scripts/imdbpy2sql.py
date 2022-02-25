@@ -1,4 +1,4 @@
-#!e:\marci\obudai_egyetem\allasinteju_kerdesek\datapao\imdb_app\.venv\scripts\python.exe
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 imdbpy2sql.py script.
