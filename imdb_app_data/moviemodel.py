@@ -7,3 +7,4 @@ class MovieModel:
         self.user_ratings = user_ratings
         self.oscar_num = oscar_num
         self.imdb_id = imdb_id
+        self.adjusted_rating = rating
