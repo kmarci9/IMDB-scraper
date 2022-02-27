@@ -1,5 +1,8 @@
 
 class MovieModel:
+    """
+    Movie Model containing the essential data
+    """
     def __init__(self,rank : int,title : str,rating : float,user_ratings : int,oscar_num : int, imdb_id : str):
         self.rank = rank
         self.title = title

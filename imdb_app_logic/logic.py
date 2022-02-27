@@ -16,6 +16,9 @@ class Logic:
 
 
     def WriteToCSV(self):
+        """
+        Writes movies into movies.csv
+        """
         csvWriter.write_to_csv(self.rc.movielist)
     
     
