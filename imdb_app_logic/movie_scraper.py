@@ -16,11 +16,14 @@ class MovieScraper:
         """
         Returns oscar number using OMDB API for a given movie by imdbID
         """
-        URL = "https://www.omdbapi.com/?i=" + imdb_id +"&apikey=b3d08b0c"
-        response = requests.post(URL)
-        parsed_dict = response.json()
+        try:
+            URL = "https://www.omdbapi.com/?i=" + imdb_id +"&apikey=b3d08b0c"
+            response = requests.post(URL)
+            parsed_dict = response.json()
+        except Exception as e:
+            print (e.message)
         awards =  parsed_dict['Awards']
-        print ( imdb_id +" " + awards)
+        #print ( imdb_id +" " + awards)
         oscars  = 0
         if ("Won ") in awards:
             split_list = awards.split(' ')
