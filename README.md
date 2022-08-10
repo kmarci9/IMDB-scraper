@@ -1,6 +1,6 @@
 # IMDB-scraper
 
-Imdb Scraper, retrieves the top 20 movie from imdb and adjusts their ratings based on the number of oscars and review numbers
+Imdb Scraper, retrieves the top 20 movie from imdb and adjusts their ratings based on the number of oscars and review numbers,
 Finally writes out the result to a csv file.
 
 ## Installation
